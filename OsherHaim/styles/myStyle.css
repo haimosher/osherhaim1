@@ -1,0 +1,78 @@
+
+body {
+    direction: rtl;
+    background-color: palegoldenrod;
+}
+
+#container {
+    width: 725px;
+    height:600px;
+    margin: 0 auto;
+}
+
+.osherhaim{
+    font-family: Arial;
+    color: black;
+    font-size: 26px;
+    font-weight:bold;
+}
+
+.facebook {
+    font-family: Arial;
+    color: black;
+    font-size: 18px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+    .facebook:hover {
+        color: blue;
+    }
+
+#nav1 ul{
+    list-style:none;
+}
+
+#nav1 ul li a:hover{
+    background-color: sandybrown;
+}
+
+#nav1 ul li a:active{
+    background-color:saddlebrown;
+}
+
+#nav1 ul li:hover >ul{
+    display:block;
+    width:120px;
+}
+
+#nav1 ul li{
+    display:inline-block;
+    float:right
+}
+
+#nav1 ul li a{
+    display: block;
+    background-color:burlywood;
+    color:white;
+    font-weight:bold;
+    width:120px;
+    height: 30px;
+    padding-top:10px;
+    text-decoration:none;
+    text-align:center;
+ 
+}
+
+#nav2{
+font-family:Arial;
+font-size:14;
+}
+
+
+
+
+
